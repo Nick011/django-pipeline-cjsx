@@ -5,8 +5,6 @@ from os.path import dirname
 from django.conf import settings
 
 
-import pdb
-
 class BrowserifyCompiler(SubProcessCompiler):
     output_extension = 'js'
 

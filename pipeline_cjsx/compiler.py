@@ -5,7 +5,7 @@ from os.path import dirname
 from django.conf import settings
 
 
-class BrowserifyCompiler(SubProcessCompiler):
+class CJSXCompiler(SubProcessCompiler):
     output_extension = 'js'
 
     def match_file(self, filename):

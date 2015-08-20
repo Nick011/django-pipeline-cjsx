@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import io
 from setuptools import setup, find_packages
 
 description = """
@@ -8,10 +7,10 @@ A django pipeline compiler to transform React in Coffeescript and Browserify.
 
 setup(
     name='django-pipeline-cjsx',
-    version='0.1.0',
+    version='0.1.1',
     description=description,
-    long_description=io.open('README.md', encoding='utf-8').read(),
     author='Nick011',
+    author_email="nhagianis@gmail.com",
     url='https://github.com/Nick011/django-pipeline-cjsx',
     packages=find_packages(),
     classifiers=[
